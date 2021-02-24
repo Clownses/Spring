@@ -4,7 +4,7 @@
 ### Show all bills
 GET `/bills`
 
-`
+```
 [
     [
         1,
@@ -17,7 +17,7 @@ GET `/bills`
         ...
     ],
 ]
-`
+```
 
 ### Show single bill
 GET `/bills/{id}`
