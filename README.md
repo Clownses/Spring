@@ -2,7 +2,7 @@
 
 ## Endpoints
 ### Show all bills
-GET `/bills`
+[GET](GET) `/bills`
 
 ```
 [
@@ -20,7 +20,7 @@ GET `/bills`
 ```
 
 ### Show single bill
-GET `/bills/{id}`
+[GET](GET) `/bills/{id}`
 
 ```
 [
