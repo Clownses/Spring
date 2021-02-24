@@ -1,8 +1,14 @@
-# Mysql Stored Procedures
+# Test Spring web application for loading data from MS Sql server
 
+## Endpoints
+### Show all bills
+GET `/bills`
 
+### Show single bill
+GET `/bills/{id}`
 
-## Get single bill
+## Mysql Stored Procedures
+### Get single bill
 > SET ANSI_NULLS ON
 > GO
 > SET QUOTED_IDENTIFIER ON
@@ -16,7 +22,7 @@
 > END
 > GO
 
-## Get all bills
+### Get all bills
 > SET ANSI_NULLS ON
 > GO
 > SET QUOTED_IDENTIFIER ON
