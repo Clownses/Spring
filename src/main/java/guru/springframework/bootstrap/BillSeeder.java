@@ -8,14 +8,12 @@ import org.springframework.stereotype.Component;
 import guru.springframework.domain.Bill;
 import guru.springframework.repositories.BillRepository;
 
-import java.text.DecimalFormat;
 import java.time.LocalDateTime;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.Arrays;
-import java.util.Currency;
 import java.util.List;
 import java.util.Random;
 import java.util.UUID;
@@ -74,9 +72,8 @@ public class BillSeeder implements ApplicationListener<ContextRefreshedEvent> {
 
     @Override
     public void onApplicationEvent(ContextRefreshedEvent event) {
-
         if (billRepository.count() == 0) {
-            for (int i = 0; i < 25; i++) {
+            for (int i = 0; i < 15; i++) {
                 Bill bill = new Bill(randomString().toString(), getRandomNumber(), randomCurrency(),
                         createRandomDate().toString());
                 billRepository.save(bill);
