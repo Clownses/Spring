@@ -7,7 +7,6 @@
 > GO
 > SET QUOTED_IDENTIFIER ON
 > GO
-
 > CREATE PROCEDURE getBill
 > 	@id int = 0
 > AS
@@ -22,7 +21,6 @@
 > GO
 > SET QUOTED_IDENTIFIER ON
 > GO
-
 > CREATE PROCEDURE getAllBills
 > AS
 > BEGIN
