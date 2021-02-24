@@ -22,6 +22,18 @@ GET `/bills`
 ### Show single bill
 GET `/bills/{id}`
 
+```
+[
+    [
+        1,
+        1234.6,
+        "USD",
+        "2020-04-12T12:07:00",
+        "c2as309f-8520-3j5h-963c-c0785as46f0e"
+    ]
+]
+```
+
 ## Mysql Stored Procedures
 ### Get single bill
 > SET ANSI_NULLS ON
